@@ -1,0 +1,479 @@
+generated: '2026-07-17'
+method: searched
+source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+summary:
+  portfolio_total: 41
+  in_network: 35
+  api_providers: 24
+  missing: 6
+  stubs_created: 0
+companies:
+- name: eBay
+  url: https://www.ebay.com
+  description: Global online marketplace for buying and selling goods.
+  sector: marketplaces
+  stage: growth
+  status: ipo
+  lead: true
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: ebay
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Uber
+  url: https://www.uber.com
+  description: On-demand ride-hailing and delivery marketplace.
+  sector: marketplaces
+  stage: growth
+  status: ipo
+  lead: true
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: uber
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Twitter
+  url: https://x.com
+  description: Real-time public social messaging platform (now X).
+  sector: social
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: twitter
+  in_network: true
+  is_api_provider: true
+  matched_by: name-slug
+- name: Instagram
+  url: https://www.instagram.com
+  description: Photo and video sharing social network (acquired by Meta).
+  sector: social
+  stage: early
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: instagram
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Snap
+  url: https://www.snap.com
+  description: Camera and messaging company behind Snapchat.
+  sector: social
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: snapchat
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Dropbox
+  url: https://www.dropbox.com
+  description: Cloud file storage and collaboration platform.
+  sector: infrastructure
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: dropbox
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Discord
+  url: https://discord.com
+  description: Voice, video, and text chat platform for communities.
+  sector: social
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: discord
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Docker
+  url: https://www.docker.com
+  description: Container platform for building and shipping applications.
+  sector: developer-tools
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: docker
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Zendesk
+  url: https://www.zendesk.com
+  description: Customer service and engagement software suite.
+  sector: enterprise-software
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: zendesk
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Yelp
+  url: https://www.yelp.com
+  description: Local business reviews and discovery marketplace.
+  sector: marketplaces
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: yelp
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: OpenTable
+  url: https://www.opentable.com
+  description: Online restaurant reservation marketplace.
+  sector: marketplaces
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: opentable
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Zillow
+  url: https://www.zillow.com
+  description: Online real estate marketplace and home valuation platform.
+  sector: marketplaces
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: zillow
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Nextdoor
+  url: https://nextdoor.com
+  description: Neighborhood-based social networking platform.
+  sector: social
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: nextdoor
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Stitch Fix
+  url: https://www.stitchfix.com
+  description: Personalized online apparel styling and retail service.
+  sector: consumer
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  in_network: true
+  is_api_provider: false
+  suggested_slug: stitch-fix
+  stub_created: true
+  slug: stitch-fix
+  matched_by: stub
+- name: Asana
+  url: https://asana.com
+  description: Work management and team collaboration platform.
+  sector: enterprise-software
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: asana
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Amplitude
+  url: https://amplitude.com
+  description: Digital analytics platform for product teams.
+  sector: enterprise-software
+  stage: growth
+  status: ipo
+  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
+  slug: amplitude
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Confluent
+  url: https://www.confluent.io
+  description: Data streaming platform built on Apache Kafka.
+  sector: infrastructure
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: confluent
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Elastic
+  url: https://www.elastic.co
+  description: Search, observability, and security platform (Elasticsearch).
+  sector: infrastructure
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: elastic
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: New Relic
+  url: https://newrelic.com
+  description: Observability and application performance monitoring platform.
+  sector: infrastructure
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: microsoft-azure
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Red Hat
+  url: https://www.redhat.com
+  description: Enterprise open source software and Linux distribution vendor.
+  sector: infrastructure
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: redhat
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Domo
+  url: https://www.domo.com
+  description: Business intelligence and data experience platform.
+  sector: enterprise-software
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: domo
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: WeWork
+  url: https://www.wework.com
+  description: Flexible workspace and office space marketplace.
+  sector: real-estate
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: wework
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Sketch
+  url: https://www.sketch.com
+  description: Digital design toolkit for interface and product design.
+  sector: developer-tools
+  stage: early
+  status: active
+  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
+  slug: sketch
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Airtable
+  url: https://www.airtable.com
+  description: No-code database and app-building platform.
+  sector: developer-tools
+  stage: growth
+  status: active
+  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
+  slug: airtable
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Airplane
+  url: https://www.airplane.dev
+  description: Internal tooling and workflow platform (acquired by Airtable).
+  sector: developer-tools
+  stage: series-a
+  status: acquired
+  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
+  in_network: true
+  is_api_provider: false
+  suggested_slug: airplane
+  stub_created: true
+  slug: airplane
+  matched_by: stub
+- name: Benchling
+  url: https://www.benchling.com
+  description: Cloud R&D platform for life sciences and biotech.
+  sector: life-sciences
+  stage: growth
+  status: active
+  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
+  slug: benchling
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Cerebras
+  url: https://www.cerebras.net
+  description: Wafer-scale AI accelerator hardware and compute company.
+  sector: artificial-intelligence
+  stage: growth
+  status: active
+  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
+  slug: cerebras
+  in_network: true
+  is_api_provider: true
+  matched_by: name-slug
+- name: Chainalysis
+  url: https://www.chainalysis.com
+  description: Blockchain data, compliance, and investigations platform.
+  sector: crypto
+  stage: growth
+  status: active
+  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
+  slug: chainalysis
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Cockroach Labs
+  url: https://www.cockroachlabs.com
+  description: Distributed SQL database (CockroachDB) company.
+  sector: infrastructure
+  stage: growth
+  status: active
+  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
+  slug: acid
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Contentful
+  url: https://www.contentful.com
+  description: API-first headless content management platform.
+  sector: developer-tools
+  stage: growth
+  status: active
+  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
+  slug: contentful
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: HackerOne
+  url: https://www.hackerone.com
+  description: Bug bounty and vulnerability disclosure security platform.
+  sector: security
+  stage: growth
+  status: active
+  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
+  slug: hackerone
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Modern Treasury
+  url: https://www.moderntreasury.com
+  description: Payment operations and money movement platform.
+  sector: fintech
+  stage: series-c
+  status: active
+  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
+  slug: modern-treasury
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Stytch
+  url: https://stytch.com
+  description: Authentication and identity infrastructure API platform.
+  sector: developer-tools
+  stage: series-b
+  status: active
+  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
+  slug: stytch
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Sorare
+  url: https://sorare.com
+  description: NFT fantasy sports game and marketplace.
+  sector: crypto
+  stage: growth
+  status: active
+  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
+  in_network: true
+  is_api_provider: false
+  suggested_slug: sorare
+  stub_created: true
+  slug: sorare
+  matched_by: stub
+- name: LangChain
+  url: https://www.langchain.com
+  description: Framework and platform for building LLM applications.
+  sector: artificial-intelligence
+  stage: series-b
+  status: active
+  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
+  slug: langchain
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: MindsDB
+  url: https://www.mindsdb.com
+  description: In-database machine learning and AI query layer.
+  sector: artificial-intelligence
+  stage: series-a
+  status: active
+  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
+  in_network: true
+  is_api_provider: false
+  suggested_slug: mindsdb
+  stub_created: true
+  slug: mindsdb
+  matched_by: stub
+- name: Robocorp
+  url: https://robocorp.com
+  description: Open source robotic process automation platform.
+  sector: developer-tools
+  stage: series-a
+  status: active
+  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
+  slug: robocorp
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Lovable
+  url: https://lovable.dev
+  description: AI-powered full-stack app development platform.
+  sector: artificial-intelligence
+  stage: series-b
+  status: active
+  lead: true
+  source: https://tracxn.com/d/venture-capital/benchmark
+  slug: lovable
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Legora
+  url: https://legora.com
+  description: AI collaboration platform for legal professionals.
+  sector: artificial-intelligence
+  stage: series-b
+  status: active
+  lead: true
+  source: https://tracxn.com/d/venture-capital/benchmark
+  slug: legora
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Gumloop
+  url: https://www.gumloop.com
+  description: No-code AI automation and workflow builder.
+  sector: artificial-intelligence
+  stage: series-a
+  status: active
+  lead: true
+  source: https://tracxn.com/d/venture-capital/benchmark
+  in_network: true
+  is_api_provider: false
+  suggested_slug: gumloop
+  stub_created: true
+  slug: gumloop
+  matched_by: stub
+- name: Starcloud
+  url: https://www.starcloud.com
+  description: Space-based data center and AI compute infrastructure.
+  sector: artificial-intelligence
+  stage: seed
+  status: active
+  lead: true
+  source: https://tracxn.com/d/venture-capital/benchmark
+  in_network: true
+  is_api_provider: false
+  suggested_slug: starcloud
+  stub_created: true
+  slug: starcloud
+  matched_by: stub
