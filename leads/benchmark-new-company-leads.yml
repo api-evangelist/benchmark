@@ -1,46 +1,4 @@
-generated: '2026-07-17'
+generated: '2026-07-22'
 method: derived
 source_vc: benchmark
-leads:
-- name: Stitch Fix
-  url: https://www.stitchfix.com
-  suggested_slug: stitch-fix
-  sector: consumer
-  source_vc: benchmark
-  source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
-  stub_created: true
-- name: Airplane
-  url: https://www.airplane.dev
-  suggested_slug: airplane
-  sector: developer-tools
-  source_vc: benchmark
-  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
-  stub_created: true
-- name: Sorare
-  url: https://sorare.com
-  suggested_slug: sorare
-  sector: crypto
-  source_vc: benchmark
-  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
-  stub_created: true
-- name: MindsDB
-  url: https://www.mindsdb.com
-  suggested_slug: mindsdb
-  sector: artificial-intelligence
-  source_vc: benchmark
-  source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
-  stub_created: true
-- name: Gumloop
-  url: https://www.gumloop.com
-  suggested_slug: gumloop
-  sector: artificial-intelligence
-  source_vc: benchmark
-  source: https://tracxn.com/d/venture-capital/benchmark
-  stub_created: true
-- name: Starcloud
-  url: https://www.starcloud.com
-  suggested_slug: starcloud
-  sector: artificial-intelligence
-  source_vc: benchmark
-  source: https://tracxn.com/d/venture-capital/benchmark
-  stub_created: true
+leads: []

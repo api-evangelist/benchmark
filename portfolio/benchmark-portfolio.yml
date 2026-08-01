@@ -3,9 +3,9 @@ method: searched
 source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
 summary:
   portfolio_total: 41
-  in_network: 35
+  in_network: 41
   api_providers: 24
-  missing: 6
+  missing: 0
   stubs_created: 0
 companies:
 - name: eBay
@@ -61,9 +61,9 @@ companies:
   stage: growth
   status: ipo
   source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
-  slug: snapchat
+  slug: snap
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Dropbox
   url: https://www.dropbox.com
@@ -162,10 +162,9 @@ companies:
   source: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)
   in_network: true
   is_api_provider: false
-  suggested_slug: stitch-fix
   stub_created: true
   slug: stitch-fix
-  matched_by: stub
+  matched_by: domain
 - name: Asana
   url: https://asana.com
   description: Work management and team collaboration platform.
@@ -285,10 +284,9 @@ companies:
   source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
   in_network: true
   is_api_provider: false
-  suggested_slug: airplane
   stub_created: true
   slug: airplane
-  matched_by: stub
+  matched_by: domain
 - name: Benchling
   url: https://www.benchling.com
   description: Cloud R&D platform for life sciences and biotech.
@@ -386,10 +384,9 @@ companies:
   source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
   in_network: true
   is_api_provider: false
-  suggested_slug: sorare
   stub_created: true
   slug: sorare
-  matched_by: stub
+  matched_by: domain
 - name: LangChain
   url: https://www.langchain.com
   description: Framework and platform for building LLM applications.
@@ -410,10 +407,9 @@ companies:
   source: https://www.crunchbase.com/hub/benchmark-portfolio-companies
   in_network: true
   is_api_provider: false
-  suggested_slug: mindsdb
   stub_created: true
   slug: mindsdb
-  matched_by: stub
+  matched_by: domain
 - name: Robocorp
   url: https://robocorp.com
   description: Open source robotic process automation platform.
@@ -458,11 +454,10 @@ companies:
   lead: true
   source: https://tracxn.com/d/venture-capital/benchmark
   in_network: true
-  is_api_provider: false
-  suggested_slug: gumloop
+  is_api_provider: true
   stub_created: true
   slug: gumloop
-  matched_by: stub
+  matched_by: domain
 - name: Starcloud
   url: https://www.starcloud.com
   description: Space-based data center and AI compute infrastructure.
@@ -473,7 +468,6 @@ companies:
   source: https://tracxn.com/d/venture-capital/benchmark
   in_network: true
   is_api_provider: false
-  suggested_slug: starcloud
   stub_created: true
   slug: starcloud
-  matched_by: stub
+  matched_by: domain
